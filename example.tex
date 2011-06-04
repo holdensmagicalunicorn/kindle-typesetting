@@ -1,0 +1,39 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[paperwidth=3.5in,paperheight=4.5in,
+  total={3.0in,4.0in},
+  includefoot]{geometry}
+
+\begin{document}
+\sloppypar
+And now comes the good news, if you haven't used
+computer typesetting before. You don't have to worry about where to
+break lines in a paragraph (i.e., where to stop at the right margin
+and being a new line), because \TeX\ will do that for you.
+Your manuscript file can contain long lines or short lines, or both;
+it doesn't matter.
+This is especially helpful when you make changes, since you
+don't have to retype anything except the words that changed.
+\textit{Every time you being a new line in your manuscript file 
+it is essentially the same as typing a space.}
+When \TeX\ has read an entire paragraph --- in this case lines
+7 to 11 --- it will try to break up the text so that each line of output,
+except the last, contains about the same amount of copy; and it will
+hyphenate words if necessary to keep the spacing consistent, but only
+as a last resort.
+\newpage
+
+\begin{verbatim}
+Once upon a time, in a distant
+  galaxy called ---
+there lived a computer
+\end{verbatim}
+
+Consider also the following examples, which show that binary operations
+can be used as ordinary symbols in superscripts and subscripts:
+
+\begin{itemize}
+\item $f^*(x) \cap f_*(y)$
+\item $g^\circ \mapsto g^\bullet$
+\end{itemize}
+\end{document}
+

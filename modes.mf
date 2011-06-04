@@ -1,0 +1,7 @@
+mode_def kindlethreezerozerobfiveftwo =                    %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, .5);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
