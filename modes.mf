@@ -1,6 +1,78 @@
+mode_def kindlesixzerozerobzerofzero =                     %\[ Kindle3 (600dpi)
+  mode_param (pixels_per_inch, 600);
+  mode_param (blacker, .0);
+  mode_param (fillin, .0);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindlethreezerozerobzeroftwo =                    %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, 0);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindlethreezerozerobthreeftwo =                    %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, .3);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindlethreezerozerobfourftwo =                    %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, .4);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
 mode_def kindlethreezerozerobfiveftwo =                    %\[ Kindle3 (300dpi)
   mode_param (pixels_per_inch, 300);
   mode_param (blacker, .5);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindlethreezerozerobsixftwo =                    %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, .6);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindlethreezerozerobtwofivefzero =               %\[ Kindle3 (300dpi)
+  mode_param (pixels_per_inch, 300);
+  mode_param (blacker, .25);
+  mode_param (fillin, .0);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindleonesixsevenbtwofivefzero =                 %\[ Kindle3 (167dpi)
+  mode_param (pixels_per_inch, 167);
+  mode_param (blacker, .25);
+  mode_param (fillin, .0);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindleonesixsevenbfiveftwo =                     %\[ Kindle3 (167dpi)
+  mode_param (pixels_per_inch, 167);
+  mode_param (blacker, .5);
+  mode_param (fillin, .2);
+  mode_param (o_correction, .6);
+  mode_common_setup_;
+enddef;
+
+mode_def kindleonesixsevenbzeroftwo =                     %\[ Kindle3 (167dpi) 
+  mode_param (pixels_per_inch, 167);
+  mode_param (blacker, 0);
   mode_param (fillin, .2);
   mode_param (o_correction, .6);
   mode_common_setup_;
