@@ -113,7 +113,7 @@ It looks good on Kindle.
 Portions of it are available in Postscript format, but glyphs for
 some faces and the math fonts must still be generated with Metafont.
 
-For those who want the bottom line: use Concrete Modern f you are
+For those who want the bottom line: use Concrete Modern if you are
 typesetting math.
 It looks much better than Computer Modern on the Kindle, and the
 bitmapped fonts are passable for their occasional use in most
