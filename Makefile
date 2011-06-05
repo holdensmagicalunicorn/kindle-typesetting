@@ -1,4 +1,4 @@
-MODE=kindlethreezerozerobfiveftwo
+MODE=kindlethreezerozerobzeroftwo
 
 %.dvi: %.tex
 	latex $<
