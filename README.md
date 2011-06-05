@@ -93,7 +93,7 @@ But there is a problem.
 The Computer Modern postscript fonts are too light when drawn at
 Kindle's low resolution.
 Computer Modern looks good on high-resolution printers, but strokes
-can become ``invisible,'' at lower resolutions.
+can become "invisible," at lower resolutions.
 With Metafont, this problem is solved by tweaking parameters to
 thicken strokes when printing to low-resolution devices.
 There is no such tuning available with the Postscript fonts.
@@ -113,11 +113,13 @@ It looks good on Kindle.
 Portions of it are available in Postscript format, but glyphs for
 some faces and the math fonts must still be generated with Metafont.
 
-For those who want the bottom line: I suggest using Concrete Modern
-if you are typesetting math.
+For those who want the bottom line: use Concrete Modern f you are
+typesetting math.
 It looks much better than Computer Modern on the Kindle, and the
 bitmapped fonts are passable for their occasional use in most
 documents.
+If you are not typesetting math, stay clear of Computer Modern and
+pick another Postscript of Open Type font.
 
 Using bitmapped fonts with Kindle
 ---
