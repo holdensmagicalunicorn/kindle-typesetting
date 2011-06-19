@@ -22,7 +22,7 @@ problems that have to be solved for high-quality typesetting.
 There are two parts to this README.
 The first is a quick description of how to target Kindle when
 typesetting with LaTeX.
-Fortunately, Kindle 3 includes a PDF view, so viewing LaTeX documents
+Fortunately, Kindle 3 includes a PDF viewer, so viewing LaTeX documents
 on a Kindle is just a matter of creating the PDF and sending it to
 a Kindle.
 The second part is a discussion of fonts.
@@ -119,7 +119,7 @@ It looks much better than Computer Modern on the Kindle, and the
 bitmapped fonts are passable for their occasional use in most
 documents.
 If you are not typesetting math, stay clear of Computer Modern and
-pick another Postscript of Open Type font.
+pick another Postscript or Open Type font.
 
 Using bitmapped fonts with Kindle
 ---
