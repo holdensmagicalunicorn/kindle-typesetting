@@ -72,7 +72,7 @@ Knuth also designed a new font, Computer Modern, when he wrote
 Computer Modern is highly parameterized.
 Where an Open Type font may only have a few parameters to affect the
 shape of glyphs at different sizes and weights, Computer Modern has
-about sixty paramters that can be modified to affect how glyphs are drawn.
+about sixty parameters that can be modified to affect how glyphs are drawn.
 This flexibility means that Computer Modern, when tuned properly, can
 look good at high resolutions, low resolutions, and at large point sizes
 as well as small.
